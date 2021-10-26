@@ -3,12 +3,18 @@
 
 
 ### Thêm dependences 
+
+- excel 2003
+
 <pre>&lt;<span class="pl-ent">dependency</span>&gt;
   &lt;<span class="pl-ent">groupId</span>&gt;org.apache.poi&lt;/<span class="pl-ent">groupId</span>&gt;
   &lt;<span class="pl-ent">artifactId</span>&gt;poi&lt;/<span class="pl-ent">artifactId</span>&gt;
   &lt;<span class="pl-ent">version</span>&gt;3.17&lt;/<span class="pl-ent">version</span>&gt;
 &lt;/<span class="pl-ent">dependency</span>&gt;
 </pre>
+
+- excel 2007 trở lên
+
 <pre>&lt;<span class="pl-ent">dependency</span>&gt;
   &lt;<span class="pl-ent">groupId</span>&gt;org.apache.poi&lt;/<span class="pl-ent">groupId</span>&gt;
   &lt;<span class="pl-ent">artifactId</span>&gt;poi-ooxml&lt;/<span class="pl-ent">artifactId</span>&gt;
